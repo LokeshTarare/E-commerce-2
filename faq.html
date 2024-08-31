@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" class="js-color-style" href="../css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../colors/color-1.css">
+    <link rel="stylesheet" class="js-color-style" href="../colors/color-1.css">
 
     <title>Responsive e-commerce website</title>
-</head>
+</head> 
 <body>
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
@@ -40,11 +40,11 @@
                     </li>
 
                     <li class="nav_item">
-                        <a href="./blog.html" class="nav_link active-link">Blog</a>
+                        <a href="./blog.html" class="nav_link">Blog</a>
                     </li>
 
                     <li class="nav_item">
-                        <a href="./faq.html" class="nav_link">Faq's</a>
+                        <a href="./faq.html" class="nav_link active-link">Faq's</a>
                     </li>
 
                     <li class="nav_item">
@@ -197,64 +197,102 @@
 
     <!--=============== MAIN ===============-->
     <main class="main">
-        <!--=============== BLOG ===============-->
-        <section class="blog section container">
-            <h2 class="breadcrumb_title">Blog Page</h2>
-            <h3 class="breadcrumb_subtitle"> Home > <span>Blog</span> </h3>
+        <!--=============== FAQ'S ===============-->
+        <section class="questions section container">
+            <h2 class="breadcrumb_title">FAQ'S Page</h2>
+            <h3 class="breadcrumb_subtitle"> Home > <span>FAQ'S</span> </h3>
 
-            <div class="blog_container grid">
-                <div class="blog_post grid">
-                    <img src="../assets/blog-1.webp" alt="" class="blog_img">
+            <div class="questions_container grid">
+                <div class="questions_group">
+                    <div class="questions_items">
+                        <header class="questions_header">
+                            <i class="bx bx-plus questions_icon"></i>
+                            <h3 class="questions_items-title">How can I track my order?</h3>
+                        </header>
 
-                    <div class="blog_info">
-                        <p class="blog_details">Explore the latest fashion trends, styling tips, and top brands for every season.</p>
-                            <h3 class="blog_title">From Now We Are Certified Web...</h3>
-                            <p class="blog_date">By Admin / Oct 22, 2024 / </p>
-                            <div class="read_more">
-                                <a href="#" class="button-link button-flex">Read More <i class="bx bx-right-arrow-alt button-icon"></i></a>
-                            </div>
+                        <div class="questions_content">
+                            <p class="questions_description">
+                                Once your order has shipped, you'll receive an email with a tracking number. 
+                                You can use this number on our website or the carrier's site to track your package.
+                            </p>
+                        </div>
                     </div>
+
+                    <div class="questions_items">
+                        <header class="questions_header">
+                            <i class="bx bx-plus questions_icon"></i>
+                            <h3 class="questions_items-title">What are your shipping options and costs?</h3>
+                        </header>
+
+                        <div class="questions_content">
+                            <p class="questions_description">
+                                We offer standard and expedited shipping. Standard shipping is free on orders over $50. 
+                                Expedited shipping costs vary depending on your location and will be calculated at checkout. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions_items">
+                        <header class="questions_header">
+                            <i class="bx bx-plus questions_icon"></i>
+                            <h3 class="questions_items-title">What is your return policy?</h3>
+                        </header>
+
+                        <div class="questions_content">
+                            <p class="questions_description">
+                                We accept returns within 30 days of purchase. Items must be unworn, unwashed, and in their 
+                                original packaging. Sale items are final and cannot be returned.
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="blog_post grid">
-                    <img src="../assets/blog-2.webp" alt="" class="blog_img">
+                <div class="questions_group">
+                    <div class="questions_items">
+                        <header class="questions_header">
+                            <i class="bx bx-plus questions_icon"></i>
+                            <h3 class="questions_items-title">Do you offer gift cards?</h3>
+                        </header>
 
-                    <div class="blog_info">
-                        <p class="blog_details">Uncover top fashion trends, styling tips, and must-have wardrobe essentials for every 
-                            season.</p>
-                            <h3 class="blog_title">From Now We Are Certified Web...</h3>
-                            <p class="blog_date">By Admin / Oct 22, 2024 / </p>
-                            <div class="read_more">
-                                <a href="#" class="button-link button-flex">Read More <i class="bx bx-right-arrow-alt button-icon"></i></a>
-                            </div>
+                        <div class="questions_content">
+                            <p class="questions_description">
+                                Yes, we offer electronic gift cards in various amounts. They can be purchased 
+                                on our website and are delivered via email.
+                            </p>
+                        </div>
                     </div>
+
+                    <div class="questions_items">
+                        <header class="questions_header">
+                            <i class="bx bx-plus questions_icon"></i>
+                            <h3 class="questions_items-title">How can I contact customer service?</h3>
+                        </header>
+
+                        <div class="questions_content">
+                            <p class="questions_description">
+                                You can contact our customer service team via email at support@clothingwebsite.com, or by 
+                                phone at 1-800-123-4567. We're available Monday to Friday, 9 AM to 5 PM EST.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions_items">
+                        <header class="questions_header">
+                            <i class="bx bx-plus questions_icon"></i>
+                            <h3 class="questions_items-title">How do I create an account?</h3>
+                        </header>
+
+                        <div class="questions_content">
+                            <p class="questions_description">
+                                You can create an account by clicking the "Sign Up" button at the top of our homepage. 
+                                Fill in your details, and you'll be ready to shop with us.
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="blog_post grid">
-                    <img src="../assets/blog-1.webp" alt="" class="blog_img">
-
-                    <div class="blog_info">
-                        <p class="blog_details">Discover fashion trends, styling tips, must-have pieces, and top brands to elevate 
-                            your wardrobe.</p>
-                            <h3 class="blog_title">From Now We Are Certified Web...</h3>
-                            <p class="blog_date">By Admin / Oct 22, 2024 / </p>
-                            <div class="read_more">
-                                <a href="#" class="button-link button-flex">Read More <i class="bx bx-right-arrow-alt button-icon"></i></a>
-                            </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pagination">
-                <i class="bx bx-chevron-left pagination-icon"></i>
-
-                <span class="current">1</span>
-                <span>2</span>
-                <span>3</span>
-                <span>&middot; &middot; &middot;</span>
-                <span>9</span>
-
-                <i class="bx bx-chevron-right pagination-icon"></i>
             </div>
         </section>
     </main>
@@ -303,7 +341,7 @@
                 <ul class="footer_links">
                     <li><a href="#" class="footer_link">Register</a></li>
                     <li><a href="#" class="footer_link">Contact</a></li>
-                    <li><a href="../html/about.html" class="footer_link">About Us</a></li>
+                    <li><a href="./about.html" class="footer_link">About Us</a></li>
                 </ul>
             </div>
         </div>
